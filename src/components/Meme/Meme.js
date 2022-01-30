@@ -26,7 +26,9 @@ const Meme = () => {
                 className='form--btn'
                 >Get a new meme image 🖼</button>
             </div>
+            <div className='meme--imgDiv'>
             <img src={memeImage} alt=''className="meme--image"/>
+            </div>
         </main>
     );
 };
